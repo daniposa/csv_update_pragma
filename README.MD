@@ -4,6 +4,13 @@
 Este repositorio resuelve  el reto de ingeniería de datos usando habilidades en el manejo de pipelines de datos, para integrar la captura, procesamiento y consulta de información.
 
 Para esto se sigue el siguiente procedimiento:
+
+- Creación de la base de datos MySQL con una única tabla "purchases" con el siguiente schema:
+
+    ![database chema](./pragma_database_schema.png "dtabase schema")
+
+    NOTA: connection parameters pragma@localhost password='password'
+
 - Extraer los datos de 6 diferentes archivos .csv en micro Batches.Todos ellos contienen únicamente tres (3) campos: timestamp, price, user_id.
 
 - A medida que los datos son cargados, realiza un seguimiento
@@ -22,7 +29,7 @@ python -m venv ./.venv
 ./.venv/bin/pip install --upgrade pip
 ./.venv/bin/pip install -r ./requirements.txt
 ```
-~~3. Abre el jupyter notebook llamado _pipeline.ipynb_ y comienza a usar este proyecto~~
+3. Abre el jupyter notebook llamado _pipeline.ipynb_ y comienza a usar este proyecto
 
 ## Soporte
 Si necesitas ayuda con este proyecto siéntete libre de contactar a Daniela que es quien actualmente mantiene este proyecto:
